@@ -71,10 +71,6 @@
   id="cartOffcanvas"
 >
 
-
-
-
-
   <div class="offcanvas-header">
     <h5 class="offcanvas-title fw-bold">🛒 Your Bag</h5>
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
@@ -529,6 +525,8 @@ const isFormValid = computed(() => {
   if (selectedMethod.value === 'cod') {
     return true;
   }
+
+  
 
   return false;
 });
